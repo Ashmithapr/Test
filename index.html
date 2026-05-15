@@ -163,26 +163,26 @@ html {
 </div>
 
 <!-- Navigation Section -->
-<section class="w-full flex justify-center py-6 sticky top-0 z-50">
+<!-- <section class="w-full flex justify-center py-6 sticky top-0 z-50"> -->
 
-  <div class="flex gap-3 overflow-x-auto no-scrollbar px-5 py-4
+  <!-- <div class="flex gap-3 overflow-x-auto no-scrollbar px-5 py-4
               rounded-[999px]
               border border-slate-700/40
               bg-slate-900/70
               backdrop-blur-2xl
-              shadow-[0_0_30px_rgba(59,130,246,0.12)]">
+              shadow-[0_0_30px_rgba(59,130,246,0.12)]"> -->
 
     <!-- Active -->
-    <a href="Index.html"
+    <!-- <a href="Index.html"
        class="px-6 py-2.5 rounded-full
               bg-gradient-to-r from-blue-500 to-indigo-500
               text-white text-xs font-semibold whitespace-nowrap
               hover:scale-105 transition-all duration-300">
       Home
-    </a>
+    </a> -->
 
     <!-- Others -->
-    <a href="#experience"
+    <!-- <a href="#experience"
        class="px-6 py-2.5 rounded-full
               bg-slate-800/80 text-slate-300
               text-xs font-medium whitespace-nowrap
@@ -191,9 +191,9 @@ html {
               hover:text-white
               transition-all duration-300">
       Experience
-    </a>
+    </a> -->
 
-    <a href="#techstack"
+    <!-- <a href="#techstack"
        class="px-6 py-2.5 rounded-full
               bg-slate-800/80 text-slate-300
               text-xs font-medium whitespace-nowrap
@@ -202,9 +202,9 @@ html {
               hover:text-white
               transition-all duration-300">
       Tech Stack
-    </a>
+    </a> -->
 
-    <a href="#projects"
+    <!-- <a href="#projects"
        class="px-6 py-2.5 rounded-full
               bg-slate-800/80 text-slate-300
               text-xs font-medium whitespace-nowrap
@@ -213,9 +213,9 @@ html {
               hover:text-white
               transition-all duration-300">
       Projects
-    </a>
+    </a> -->
 
-    <a href="#learning"
+    <!-- <a href="#learning"
        class="px-6 py-2.5 rounded-full
               bg-slate-800/80 text-slate-300
               text-xs font-medium whitespace-nowrap
@@ -224,9 +224,9 @@ html {
               hover:text-white
               transition-all duration-300">
       Learning
-    </a>
+    </a> -->
 
-    <a href="#connect"
+    <!-- <a href="#connect"
        class="px-6 py-2.5 rounded-full
               bg-slate-800/80 text-slate-300
               text-xs font-medium whitespace-nowrap
@@ -235,11 +235,11 @@ html {
               hover:text-white
               transition-all duration-300">
       Connect
-    </a>
+    </a> -->
 
-  </div>
+  <!-- </div>
 
-</section>
+</section> -->
 
 <!-- Experience START -->
 <div class="masonry-grid">
@@ -517,7 +517,7 @@ bg-violet-500/20 rounded-full blur-3xl"></div>
 
 <!-- Connect START -->
 <div class="masonry-grid">
-<div id="learning" class="scroll-mt-28 masonry-item group cursor-pointer w-full col-span-full">
+<div id="connect" class="scroll-mt-28 masonry-item group cursor-pointer w-full col-span-full">
 <div class="aspect-[18/5] rounded-lg overflow-hidden bg-surface-container relative mb-4">
 <!-- Dark Background -->
 <div class="absolute inset-0 bg-[#060816]"></div>
@@ -665,18 +665,30 @@ bg-teal-500/20 rounded-full blur-3xl"></div>
 </div>
 </aside> -->
 <!-- BottomNavBar (Mobile & Tablet) -->
-<nav class="fixed bottom-6 left-1/2 -translate-x-1/2 w-[90%] max-w-sm glass-nav rounded-full px-4 py-3 flex justify-between items-center z-50 neon-glow">
-<a class="flex flex-col items-center gap-1 px-4" href="#">
-<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">deployed_code</span>
-<span class="text-[10px] font-bold text-on-surface">BUILD</span>
+<nav class="fixed bottom-6 left-1/2 -translate-x-1/2 w-[90%] max-w-xl glass-nav rounded-full px-2 py-3 flex justify-between items-center z-50 neon-glow">
+<a class="flex flex-col items-center gap-1 px-4" href="index.html">
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">dashboard</span>
+<span class="text-[10px] font-bold text-on-surface">Home</span>
 </a>
-<a class="flex flex-col items-center gap-1 px-4 opacity-50 hover:opacity-100 transition-opacity" href="#">
-<span class="material-symbols-outlined">settings_ethernet</span>
-<span class="text-[10px] font-bold text-on-surface">STACK</span>
+<a class="flex flex-col items-center gap-1 px-4 opacity-50 hover:opacity-100 transition-opacity" href="#experience">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">corporate_fare</span>
+<span class="text-[10px] font-bold text-on-surface">Experience</span>
 </a>
-<a class="flex flex-col items-center gap-1 px-4 opacity-50 hover:opacity-100 transition-opacity" href="#">
-<span class="material-symbols-outlined">connect_without_contact</span>
-<span class="text-[10px] font-bold text-on-surface">CONNECT</span>
+<a class="flex flex-col items-center gap-1 px-4 opacity-50 hover:opacity-100 transition-opacity" href="#techstack">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">settings_ethernet</span>
+<span class="text-[10px] font-bold text-on-surface">TechStack</span>
+</a>
+<a class="flex flex-col items-center gap-1 px-4 opacity-50 hover:opacity-100 transition-opacity" href="#projects">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">folder_code</span>
+<span class="text-[10px] font-bold text-on-surface">Projects</span>
+</a>
+<a class="flex flex-col items-center gap-1 px-4 opacity-50 hover:opacity-100 transition-opacity" href="#learning">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">psychology</span>
+<span class="text-[10px] font-bold text-on-surface">Learning</span>
+</a>
+<a class="flex flex-col items-center gap-1 px-4 opacity-50 hover:opacity-100 transition-opacity" href="#connect">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">connect_without_contact</span>
+<span class="text-[10px] font-bold text-on-surface">Connect</span>
 </a>
 </nav>
 <!-- Contextual FAB (Suppressed on details, visible on home) -->
